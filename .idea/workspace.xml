@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f52fb33e-fad4-4a22-bda0-84e5e3557c08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f52fb33e-fad4-4a22-bda0-84e5e3557c08" name="Changes" comment="First commit.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BreadthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CISLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/CISQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CISQueueLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CISQueueLinkedListRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CISQueueLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BreadthFirstSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CISQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CISQueueLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CISQueueLinkedListTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +56,28 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CISQueueLinkedListTest.dequeue">
-    <configuration name="CISQueueLinkedListTest.contains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CISQueueTest">
+    <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BreadthFirstSearch" />
+      <module name="CS.12.03-Tutorial.2-Queues" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreadthFirstSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS.12.03-Tutorial.2-Queues" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CISQueueLinkedListTest" />
-      <option name="METHOD_NAME" value="contains" />
+      <option name="MAIN_CLASS_NAME" value="BreadthFirstSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreadthFirstSearchTest.bfs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS.12.03-Tutorial.2-Queues" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BreadthFirstSearchTest" />
+      <option name="METHOD_NAME" value="bfs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,43 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CISQueueLinkedListTest.enqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CISQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS.12.03-Tutorial.2-Queues" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CISQueueLinkedListTest" />
-      <option name="METHOD_NAME" value="enqueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CISQueueLinkedListTest.isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CS.12.03-Tutorial.2-Queues" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CISQueueLinkedListTest" />
-      <option name="METHOD_NAME" value="isEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CISQueueLinkedListTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CS.12.03-Tutorial.2-Queues" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CISQueueLinkedListTest" />
-      <option name="METHOD_NAME" value="testToString" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="CISQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CISQueueTest" />
+        <item itemvalue="JUnit.BreadthFirstSearchTest" />
+        <item itemvalue="JUnit.BreadthFirstSearchTest.bfs" />
+        <item itemvalue="Application.BreadthFirstSearch" />
         <item itemvalue="JUnit.CISQueueLinkedListTest.dequeue" />
-        <item itemvalue="JUnit.CISQueueLinkedListTest.testToString" />
-        <item itemvalue="JUnit.CISQueueLinkedListTest.contains" />
-        <item itemvalue="JUnit.CISQueueLinkedListTest.enqueue" />
-        <item itemvalue="JUnit.CISQueueLinkedListTest.isEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1706593924192</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit.">
+      <created>1706664595410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706664595410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,5 +141,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit." />
   </component>
 </project>
